@@ -72,7 +72,7 @@
                         "section": "This tutorial demonstrates a simple message flow that receives modeled XML data from an input file using a FileInput node, and propagates records downstream through the flow one at a time. A Mapping node transforms each data record into a string format (propagated using the BLOB domain), and adds it to a staging file using a FileOutput node. Once all records have been taken from the input file, the FileInput node sends a propagation out of the End of Data terminal, which is routed into the Finish File input terminal of the FileOutput node. This causes the staging file to be finished and moved to the specified output file name and directory."
                     },
                     {
-                        "section": "The tutorial requires an ACE integration node owned server, or a standalone server."
+                        "section": "The tutorial requires an IBM App Connect Enterprise integration node owned server, or a standalone server."
                     },
                     {
                         "section": "In IBM App Connect Enterprise, an application is a container for all the resources that are required to create a solution. This tutorial provides an application to hold the message flow. There are no other pre-requisites needed by the scenario."
@@ -87,7 +87,7 @@
 				[
 					{
 						"title": "Knowledge Center link to ",
-						"description": "Developing integration solutions by using applications",
+						"description": "Developing integration solutions from scratch",
 						"link": "https://www.ibm.com/support/knowledgecenter/en/SSTTDS_11.0.0/com.ibm.etools.mft.doc/bi12002_.htm",
 						"type": "web"
 					}
@@ -123,7 +123,7 @@
 					[
                         {
                             "title": "Knowledge Center link to ",
-                            "description": "Developing integration solutions by using applications",
+                            "description": "Developing integration solutions from scratch",
                             "link": "https://www.ibm.com/support/knowledgecenter/en/SSTTDS_11.0.0/com.ibm.etools.mft.doc/bi12002_.htm",
 							"type": "web"
                         }
